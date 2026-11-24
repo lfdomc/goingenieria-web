@@ -410,6 +410,26 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 @media (max-width: 640px) {
   body { font-size: 16px; }
+  :root { --space-mobile: 56px; }
+  .section, .projects { padding-block: var(--space-mobile); }
+  .section--tight { padding-block: 24px; }
+  .section__head { margin-bottom: 28px; gap: 14px; }
+  .svc { padding-top: calc(var(--nav-h) + 24px); padding-bottom: 8px; }
+  .svc__body, .svc__grid { gap: 28px; }
+  .svc__aside { gap: 20px; }
+  .svc__img { display: none; }
+  .svc__list li { padding: 14px 0; font-size: 17px; }
+  .hero { padding-bottom: 32px; }
+  .hero__sub { margin-top: 18px; }
+  .hero__ctas { margin-top: 24px; }
+  .stats__lead, .stats__secondary { margin-top: 24px; }
+  .stats__grid, .process__grid, .faq, .contact__grid { gap: 32px; }
+  .stack { gap: 16px; }
+  .stack__card { min-height: 0; padding: 20px; }
+  .bim-note { margin-top: 28px; }
+  .footer__top { padding-block: 48px 40px; }
+  .footer__grid { padding-block: 40px; gap: 32px; }
+  .cta-band__inner { padding: 28px 22px; }
   .svc-col { padding: 22px 18px 10px; }
   .svc-row__t { font-size: 17px; }
   .form__2 { grid-template-columns: minmax(0, 1fr); }

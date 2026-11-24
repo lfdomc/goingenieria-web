@@ -32,7 +32,7 @@ export function Projects({ data }: { data: ProjectsData }) {
               className={`mosaic__item mosaic__item--${p.size ?? "normal"}`}
               initial={animate ? { clipPath: "inset(18% 0 0 0 round 18px)", opacity: 0, y: 60 } : false}
               whileInView={{ clipPath: "inset(0% 0 0 0 round 18px)", opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.25 }}
+              viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.9, delay: (i % 3) * 0.08, ease: EASE }}
             >
               <figure>
@@ -42,7 +42,7 @@ export function Projects({ data }: { data: ProjectsData }) {
                   loading="lazy"
                   initial={animate ? { scale: 1.18 } : false}
                   whileInView={{ scale: 1 }}
-                  viewport={{ once: true, amount: 0.25 }}
+                  viewport={{ once: true, amount: 0.1 }}
                   transition={{ duration: 1.4, delay: (i % 3) * 0.08, ease: EASE }}
                 />
                 <figcaption>

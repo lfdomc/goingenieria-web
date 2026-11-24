@@ -25,7 +25,7 @@ export function Reveal({
   const Tag = as;
   if (kind === "none" || reduce || intensity <= 3) return <Tag className={className}>{children}</Tag>;
 
-  const d = intensity * 4;
+  const d = intensity * 3;
   const duration = 0.35 + intensity * 0.06;
   const variants: Record<string, Variants> = {
     "fade-up": { hidden: { opacity: 0, y: d }, show: { opacity: 1, y: 0 } },
@@ -38,7 +38,7 @@ export function Reveal({
       className={className}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: 0.05, margin: "0px 0px -8% 0px" }}
       variants={variants[kind] ?? variants["fade-up"]}
       transition={{ duration, delay, ease: EASE }}
     >

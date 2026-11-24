@@ -44,7 +44,7 @@ export function Services({ data }: { data: ServicesData }) {
                       key={s.slug}
                       initial={{ opacity: 0, x: -16 }}
                       whileInView={{ opacity: 1, x: 0 }}
-                      viewport={{ once: true, amount: 0.6 }}
+                      viewport={{ once: true, amount: 0.2 }}
                       transition={{ duration: 0.5, delay: 0.15 + ci * 0.1 + i * 0.06, ease: EASE }}
                     >
                       <a href={`/servicios/${s.slug}/`} className="svc-row">
