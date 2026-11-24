@@ -1,0 +1,642 @@
+{
+  "brand": {
+    "name": "Go Ingeniería",
+    "legalName": "Go Ingeniería Costa Rica",
+    "tagline": "Ingeniería eléctrica y mecánica, del plano a la obra",
+    "logo": "/images/logo-go-ingenieria.webp",
+    "logoAlt": "Go Ingeniería Costa Rica",
+    "foundingYear": 2020,
+    "domain": "https://www.goingenieria.com"
+  },
+  "contact": {
+    "whatsapp": "50686301912",
+    "whatsappDefaultMessage": "Hola Go Ingeniería, quiero cotizar un proyecto.",
+    "people": [
+      {
+        "label": "Ingeniería y cotizaciones",
+        "email": "imoreno@goingenieria.com",
+        "phone": "8630 1912",
+        "whatsapp": "50686301912"
+      },
+      {
+        "label": "Inspección y obra",
+        "email": "fpena@goingenieria.com",
+        "phone": "8887 1905",
+        "whatsapp": "50688871905"
+      }
+    ],
+    "address": {
+      "street": "San Pedro",
+      "locality": "Montes de Oca",
+      "region": "San José",
+      "country": "CR",
+      "display": "San Pedro, Montes de Oca, San José, Costa Rica"
+    },
+    "areaServed": "Costa Rica",
+    "social": {
+      "instagram": "",
+      "facebook": "",
+      "linkedin": ""
+    }
+  },
+  "seo": {
+    "title": "Go Ingeniería | Diseño eléctrico y mecánico en Costa Rica",
+    "titleTemplate": "%s | Go Ingeniería",
+    "description": "Diseño eléctrico, hidrosanitario, gas LPG, piscinas y detección de incendios modelado en BIM. Inspección y construcción de sistemas para proyectos residenciales, comerciales e industriales en Costa Rica.",
+    "keywords": [
+      "diseño eléctrico Costa Rica",
+      "ingeniería eléctrica Costa Rica",
+      "diseño hidrosanitario",
+      "diseño mecánico de piscinas",
+      "sistema de gas LPG",
+      "detección de incendios",
+      "inspección de obra CFIA",
+      "ingeniería electromecánica San José",
+      "BIM Costa Rica",
+      "estudios eléctricos IEEE NFPA"
+    ],
+    "ogImage": "/images/og-image.jpg",
+    "locale": "es_CR",
+    "ga4": ""
+  },
+  "design": {
+    "readAs": "Sitio corporativo de captación para una firma de ingeniería electromecánica, dirigido a arquitectos, desarrolladores y dueños de proyecto; lenguaje técnico, preciso y cálido; familia cinemático oscuro con plano técnico.",
+    "dials": {
+      "variance": 7,
+      "motion": 8,
+      "density": 4
+    },
+    "mode": "dark",
+    "theme": {
+      "colors": {
+        "dark": {
+          "bg": "oklch(0.165 0.005 60)",
+          "surface": "oklch(0.205 0.006 60)",
+          "surface2": "oklch(0.25 0.008 60)",
+          "ink": "oklch(0.955 0.008 75)",
+          "inkMuted": "oklch(0.76 0.012 70)",
+          "accent": "oklch(0.72 0.17 55)",
+          "accentInk": "oklch(0.2 0.04 55)",
+          "border": "oklch(1 0 0 / 0.1)",
+          "blueprint": "oklch(0.72 0.17 55 / 0.55)",
+          "water": "oklch(0.76 0.11 225)"
+        },
+        "light": {
+          "bg": "oklch(0.975 0.004 70)",
+          "surface": "oklch(1 0 0)",
+          "surface2": "oklch(0.94 0.006 70)",
+          "ink": "oklch(0.2 0.01 60)",
+          "inkMuted": "oklch(0.44 0.012 60)",
+          "accent": "oklch(0.66 0.17 50)",
+          "accentInk": "oklch(0.18 0.03 55)",
+          "border": "oklch(0.2 0.01 60 / 0.12)",
+          "blueprint": "oklch(0.6 0.15 50 / 0.5)",
+          "water": "oklch(0.55 0.13 235)"
+        }
+      },
+      "fonts": {
+        "display": "Space Grotesk",
+        "body": "Manrope",
+        "googleFontsQuery": "family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700"
+      },
+      "radius": "18px",
+      "maxWidth": "1240px"
+    }
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Servicios",
+        "href": "/#servicios"
+      },
+      {
+        "label": "Proyectos",
+        "href": "/#proyectos"
+      },
+      {
+        "label": "Proceso",
+        "href": "/#proceso"
+      },
+      {
+        "label": "Preguntas",
+        "href": "/#preguntas"
+      }
+    ],
+    "cta": {
+      "label": "Cotizar proyecto",
+      "message": "Hola Go Ingeniería, quiero cotizar un proyecto."
+    }
+  },
+  "sections": [
+    {
+      "id": "inicio",
+      "type": "hero",
+      "variant": "planos",
+      "title": "Del plano a la obra, sin sorpresas.",
+      "titleLight": "sin sorpresas.",
+      "subtitle": "Diseño eléctrico y mecánico modelado en BIM, inspección y construcción de sistemas para casas, comercios e industria en Costa Rica.",
+      "primaryCta": {
+        "label": "Cotizar proyecto",
+        "message": "Hola Go Ingeniería, quiero cotizar el diseño electromecánico de mi proyecto."
+      },
+      "secondaryCta": {
+        "label": "Ver proyectos",
+        "href": "#proyectos"
+      },
+      "image": "/images/hero-casa-jardin.webp",
+      "imageAlt": "Residencia moderna con jardín tropical, proyecto con ingeniería de Go Ingeniería",
+      "motion": {
+        "reveal": "words"
+      },
+      "plans": [
+        {
+          "id": "electrico",
+          "label": "Plano eléctrico",
+          "caption": "Lámina E-01: iluminación, tomacorrientes y circuitos al centro de carga.",
+          "duration": 5.6
+        },
+        {
+          "id": "hidraulico",
+          "label": "Plano hidrosanitario",
+          "caption": "Lámina M-01: agua potable, agua caliente, aguas negras y jabonosas.",
+          "duration": 5
+        },
+        {
+          "id": "incendios",
+          "label": "Seguridad humana",
+          "caption": "Lámina SH-01: detectores, estaciones manuales y alarmas.",
+          "duration": 5
+        },
+        {
+          "id": "bim",
+          "label": "Modelo BIM",
+          "caption": "Electricidad y tuberías coordinadas en 3D antes de construir.",
+          "duration": 4.5
+        }
+      ]
+    },
+    {
+      "id": "capacidades",
+      "type": "marquee",
+      "items": [
+        "Diseño eléctrico",
+        "Diseño hidrosanitario",
+        "Piscinas",
+        "Gas LPG",
+        "Detección de incendios",
+        "Estudios IEEE y NFPA",
+        "Iluminación norma INTECO",
+        "Unifilares de potencia",
+        "Inspección de obra",
+        "Modelado BIM 3D"
+      ]
+    },
+    {
+      "id": "experiencia",
+      "type": "stats",
+      "variant": "barras",
+      "title": "Los números hablan por nosotros.",
+      "lead": {
+        "value": 222251,
+        "suffix": " m²",
+        "label": "diseñados por nuestros ingenieros"
+      },
+      "secondary": [
+        {
+          "value": 374,
+          "suffix": "",
+          "label": "proyectos registrados ante el CFIA"
+        },
+        {
+          "value": 2020,
+          "suffix": "",
+          "label": "año de fundación",
+          "static": true
+        }
+      ],
+      "breakdownTitle": "Área diseñada por tipo de proyecto",
+      "breakdown": [
+        {
+          "label": "Residencial de lujo (más de 400 m²)",
+          "m2": 102407,
+          "projects": 56
+        },
+        {
+          "label": "Comercial: locales y oficinas",
+          "m2": 54223,
+          "projects": 67
+        },
+        {
+          "label": "Residencial (menos de 400 m²)",
+          "m2": 50484,
+          "projects": 255
+        },
+        {
+          "label": "Industrial",
+          "m2": 11985,
+          "projects": 13
+        },
+        {
+          "label": "Turístico",
+          "m2": 3152,
+          "projects": 3
+        }
+      ],
+      "note": "Consolidado del histórico de proyectos registrados ante el CFIA por los profesionales responsables IMI-34661 e IMI-34645.",
+      "motion": {
+        "reveal": "fade-up"
+      }
+    },
+    {
+      "id": "servicios",
+      "type": "services",
+      "variant": "catalogo",
+      "title": "Nuestros servicios.",
+      "intro": "Diez servicios en tres especialidades. Elija una para ver solo esos, o recorra todos.",
+      "allLabel": "Todos",
+      "categories": [
+        {
+          "id": "electrica",
+          "title": "Ingeniería eléctrica",
+          "short": "Eléctrica",
+          "icon": "bolt",
+          "text": "Diseño, estudios e iluminación para que la energía llegue segura a cada circuito."
+        },
+        {
+          "id": "mecanica",
+          "title": "Ingeniería mecánica",
+          "short": "Mecánica",
+          "icon": "drop",
+          "text": "Agua, piscinas y gas diseñados y coordinados con el resto del edificio."
+        },
+        {
+          "id": "ambas",
+          "title": "Obra e instalaciones",
+          "short": "Obra",
+          "icon": "hardhat",
+          "text": "Inspección, construcción y evaluación de sistemas eléctricos y mecánicos."
+        }
+      ],
+      "bimNote": {
+        "title": "Todo diseño se entrega modelado en BIM",
+        "text": "Coordinamos electricidad y tuberías con arquitectura y estructura en 3D, para resolver interferencias en el modelo y no en la obra."
+      },
+      "cta": "Ver servicio",
+      "motion": {
+        "reveal": "fade-up"
+      }
+    },
+    {
+      "id": "proceso",
+      "type": "process",
+      "variant": "sticky-stack",
+      "title": "Así trabajamos.",
+      "intro": "Un camino claro desde los planos arquitectónicos hasta el sistema funcionando.",
+      "steps": [
+        {
+          "title": "Revisión y levantamiento",
+          "text": "Recibimos sus planos arquitectónicos o visitamos la instalación existente para entender cargas, usos y alcances.",
+          "image": "/images/inspeccion-residencia-moderna.webp",
+          "imageAlt": "Residencia moderna en etapa de obra durante la visita técnica"
+        },
+        {
+          "title": "Diseño en BIM",
+          "text": "Modelamos en 3D los sistemas eléctricos y mecánicos, con cálculos basados en IEEE, NFPA y la norma INTECO.",
+          "image": "/images/bim-hidrosanitario.webp",
+          "imageAlt": "Modelo BIM de sistema hidrosanitario"
+        },
+        {
+          "title": "Planos y registro",
+          "text": "Entregamos planos y memorias listos para el registro del proyecto ante el CFIA.",
+          "image": "/images/revision-planos-sitio.webp",
+          "imageAlt": "Planos impresos del proyecto revisados en sitio"
+        },
+        {
+          "title": "Inspección y dirección",
+          "text": "Damos seguimiento en obra para que lo construido corresponda a lo diseñado.",
+          "image": "/images/inspeccion-tablero.webp",
+          "imageAlt": "Inspección de tablero eléctrico en obra"
+        },
+        {
+          "title": "Construcción y entrega",
+          "text": "Si lo necesita, construimos los sistemas y le entregamos el proyecto funcionando.",
+          "image": "/images/direccion-proyecto-comercial.webp",
+          "imageAlt": "Edificio comercial terminado con fachada de vidrio y madera"
+        }
+      ],
+      "motion": {
+        "reveal": "fade-up"
+      }
+    },
+    {
+      "id": "proyectos",
+      "type": "projects",
+      "variant": "mosaico",
+      "title": "Algunos de nuestros trabajos.",
+      "intro": "Residencias, comercios e industria donde diseñamos, inspeccionamos o dirigimos la ingeniería.",
+      "items": [
+        {
+          "title": "Diseño mecánico de piscina",
+          "category": "Residencial de lujo",
+          "image": "/images/piscina-mirador.webp",
+          "imageAlt": "Piscina infinita con vista al valle en residencia de lujo",
+          "size": "wide"
+        },
+        {
+          "title": "Inspección de residencia",
+          "category": "Residencial",
+          "image": "/images/inspeccion-residencia-moderna.webp",
+          "imageAlt": "Residencia moderna blanca durante la inspección de obra",
+          "size": "tall"
+        },
+        {
+          "title": "Inspección de residencia",
+          "category": "Residencial de lujo",
+          "image": "/images/inspeccion-residencia-madera.webp",
+          "imageAlt": "Residencia con terrazas de madera y piscina",
+          "size": "normal"
+        },
+        {
+          "title": "Dirección de proyecto",
+          "category": "Comercial",
+          "image": "/images/direccion-proyecto-comercial.webp",
+          "imageAlt": "Edificio comercial de varios niveles con iluminación interior",
+          "size": "tall"
+        },
+        {
+          "title": "Inspección de sistemas",
+          "category": "Industrial",
+          "image": "/images/inspeccion-tuberias-industrial.webp",
+          "imageAlt": "Tuberías y canalizaciones en techo industrial",
+          "size": "normal"
+        },
+        {
+          "title": "Diseño eléctrico",
+          "category": "Residencial",
+          "image": "/images/edificio-electrico.webp",
+          "imageAlt": "Edificio de apartamentos al atardecer",
+          "size": "tall"
+        },
+        {
+          "title": "Diseño hidrosanitario y piscina",
+          "category": "Residencial de lujo",
+          "image": "/images/piscina-tropical.webp",
+          "imageAlt": "Piscina rodeada de vegetación tropical",
+          "size": "wide"
+        }
+      ],
+      "motion": {
+        "reveal": "fade-up"
+      }
+    },
+    {
+      "id": "preguntas",
+      "type": "faq",
+      "title": "Preguntas frecuentes.",
+      "items": [
+        {
+          "q": "¿Qué necesito para cotizar el diseño de mi proyecto?",
+          "a": "Los planos arquitectónicos en PDF o DWG, la ubicación del proyecto y el área aproximada. Con eso le preparamos una oferta de diseño eléctrico, mecánico o ambos."
+        },
+        {
+          "q": "¿Qué es BIM y qué gano con un diseño modelado en 3D?",
+          "a": "BIM es un modelo digital del edificio con sus sistemas. Al modelar la electricidad y las tuberías junto con la arquitectura y la estructura, las interferencias se detectan antes de construir."
+        },
+        {
+          "q": "¿Con qué normas diseñan?",
+          "a": "Los estudios eléctricos se basan en IEEE y NFPA, y los estudios de iluminación en la norma INTECO."
+        },
+        {
+          "q": "¿Solo diseñan o también construyen?",
+          "a": "Hacemos las dos cosas: diseño, inspección y dirección de obra, y construcción de sistemas eléctricos y mecánicos."
+        },
+        {
+          "q": "¿Pueden revisar una instalación que ya existe?",
+          "a": "Sí. Evaluamos instalaciones eléctricas y mecánicas existentes y levantamos o actualizamos unifilares de potencia para industria y comercio."
+        }
+      ]
+    },
+    {
+      "id": "contacto",
+      "type": "contact",
+      "variant": "split-form",
+      "title": "¿Su proyecto ya tiene planos?",
+      "text": "Envíenos los planos arquitectónicos y le cotizamos el diseño electromecánico. Trabajamos con arquitectos, desarrolladores y dueños de proyecto.",
+      "form": {
+        "name": "Nombre",
+        "phone": "Teléfono",
+        "type": "Tipo de proyecto",
+        "types": [
+          "Residencial",
+          "Residencial de lujo",
+          "Comercial",
+          "Industrial",
+          "Turístico",
+          "Instalación existente"
+        ],
+        "area": "Área aproximada (m²)",
+        "message": "¿Qué necesita?",
+        "submit": "Cotizar proyecto",
+        "waIntro": "Hola Go Ingeniería, quiero cotizar un proyecto."
+      }
+    }
+  ],
+  "services": [
+    {
+      "slug": "diseno-electrico",
+      "discipline": "electrica",
+      "name": "Diseño eléctrico",
+      "h1": "Diseño eléctrico residencial, comercial e industrial",
+      "summary": "Planos eléctricos modelados en BIM para casas, locales, oficinas y plantas industriales.",
+      "intro": "Diseñamos la instalación eléctrica completa de su proyecto, desde la acometida y los tableros hasta los circuitos de iluminación y tomacorrientes, modelada en 3D y coordinada con la arquitectura.",
+      "includes": [
+        "Cálculo de cargas, acometida y tableros",
+        "Circuitos de iluminación y tomacorrientes",
+        "Diagramas unifilares",
+        "Modelo BIM coordinado con arquitectura y estructura"
+      ],
+      "image": "/images/edificio-electrico.webp",
+      "imageAlt": "Edificio de apartamentos con iluminación exterior",
+      "art": "electrico"
+    },
+    {
+      "slug": "estudios-electricos",
+      "discipline": "electrica",
+      "name": "Estudios eléctricos",
+      "h1": "Estudios eléctricos basados en IEEE y NFPA",
+      "summary": "Análisis eléctricos para industria y comercio, y levantamiento de unifilares de potencia.",
+      "intro": "Realizamos estudios eléctricos para cualquier industria y comercio con base en las normas IEEE y NFPA, y levantamos o actualizamos los diagramas unifilares de potencia de su instalación.",
+      "includes": [
+        "Análisis de estudios eléctricos IEEE y NFPA",
+        "Levantamiento de unifilares de potencia",
+        "Actualización de unifilares existentes",
+        "Recomendaciones para la instalación"
+      ],
+      "image": "/images/tablero-electrico.webp",
+      "imageAlt": "Tablero eléctrico de potencia",
+      "art": "unifilar"
+    },
+    {
+      "slug": "estudios-iluminacion",
+      "discipline": "electrica",
+      "name": "Estudios de iluminación",
+      "h1": "Estudios de iluminación con la norma INTECO",
+      "summary": "Niveles de iluminación adecuados para cada espacio según la norma INTECO.",
+      "intro": "Calculamos la iluminación de oficinas, comercios, industria y vivienda con base en la norma INTECO, para que cada espacio tenga la luz que su uso requiere.",
+      "includes": [
+        "Cálculo de niveles de iluminación por espacio",
+        "Selección y ubicación de luminarias",
+        "Verificación con la norma INTECO",
+        "Integración con el diseño eléctrico"
+      ],
+      "image": "/images/direccion-proyecto-comercial.webp",
+      "imageAlt": "Edificio comercial iluminado al anochecer",
+      "art": "iluminacion"
+    },
+    {
+      "slug": "deteccion-incendios",
+      "discipline": "electrica",
+      "name": "Detección de incendios",
+      "h1": "Diseño de sistemas de detección de incendios",
+      "summary": "Diseño de detección y alarma de incendios como parte de la seguridad humana del proyecto.",
+      "intro": "Diseñamos el sistema de detección de incendios de su edificio, integrado al diseño eléctrico y modelado en BIM.",
+      "includes": [
+        "Ubicación de detectores y estaciones manuales",
+        "Panel de control y alarmas",
+        "Planos de seguridad humana",
+        "Modelo BIM del sistema"
+      ],
+      "image": "/images/inspeccion-tuberias-industrial.webp",
+      "imageAlt": "Tubería roja de sistema contra incendios en techo industrial",
+      "art": "incendios"
+    },
+    {
+      "slug": "diseno-hidrosanitario",
+      "discipline": "mecanica",
+      "name": "Diseño hidrosanitario",
+      "h1": "Diseño hidrosanitario residencial, comercial e industrial",
+      "summary": "Agua potable, aguas residuales y pluviales modelados en BIM.",
+      "intro": "Diseñamos los sistemas de agua potable, aguas residuales y pluviales de su proyecto, modelados en 3D para evitar choques con estructura y electricidad.",
+      "includes": [
+        "Sistema de agua potable y equipos de bombeo",
+        "Aguas residuales y ventilación",
+        "Aguas pluviales",
+        "Modelo BIM coordinado"
+      ],
+      "image": "/images/bim-hidrosanitario.webp",
+      "imageAlt": "Modelo 3D de sistema hidrosanitario",
+      "art": "hidraulico"
+    },
+    {
+      "slug": "diseno-piscinas",
+      "discipline": "mecanica",
+      "name": "Diseño mecánico de piscinas",
+      "h1": "Diseño mecánico de piscinas",
+      "summary": "Sistemas de recirculación y filtración para piscinas residenciales y turísticas.",
+      "intro": "Diseñamos el sistema mecánico de su piscina: recirculación, filtración y equipos, integrado con el resto de la ingeniería del proyecto.",
+      "includes": [
+        "Sistema de recirculación y filtración",
+        "Selección de bombas y equipos",
+        "Tuberías y cuarto de máquinas",
+        "Modelo BIM del sistema"
+      ],
+      "image": "/images/piscina-mirador.webp",
+      "imageAlt": "Piscina infinita en residencia con vista al valle",
+      "art": "piscina"
+    },
+    {
+      "slug": "sistemas-gas-lpg",
+      "discipline": "mecanica",
+      "name": "Sistemas de gas LPG",
+      "h1": "Diseño de sistemas de gas LPG",
+      "summary": "Redes de gas LPG para vivienda, comercio e industria.",
+      "intro": "Diseñamos la red de gas LPG de su proyecto, desde el almacenamiento hasta cada equipo de consumo.",
+      "includes": [
+        "Ubicación de tanques o cilindros",
+        "Dimensionamiento de tuberías",
+        "Reguladores y válvulas",
+        "Planos del sistema en BIM"
+      ],
+      "image": "/images/inspeccion-residencia-madera.webp",
+      "imageAlt": "Residencia con terrazas de madera",
+      "art": "gas"
+    },
+    {
+      "slug": "inspeccion-obra",
+      "discipline": "ambas",
+      "name": "Inspección y dirección de obra",
+      "h1": "Inspección y dirección de proyectos eléctricos y mecánicos",
+      "summary": "Seguimiento en obra para que lo construido corresponda a lo diseñado.",
+      "intro": "Inspeccionamos y dirigimos proyectos residenciales, comerciales e industriales, verificando en sitio la instalación eléctrica y mecánica.",
+      "includes": [
+        "Visitas de inspección eléctrica y mecánica",
+        "Dirección de proyectos comerciales e industriales",
+        "Revisión de lo construido contra planos",
+        "Informes de inspección"
+      ],
+      "image": "/images/inspeccion-tablero.webp",
+      "imageAlt": "Tablero eléctrico durante inspección en obra",
+      "art": "inspeccion"
+    },
+    {
+      "slug": "construccion-sistemas",
+      "discipline": "ambas",
+      "name": "Construcción de sistemas",
+      "h1": "Construcción de sistemas eléctricos y mecánicos",
+      "summary": "Instalamos lo que diseñamos, con el mismo equipo de principio a fin.",
+      "intro": "Construimos los sistemas eléctricos y mecánicos de su proyecto, con el equipo que conoce el diseño desde el primer plano.",
+      "includes": [
+        "Instalación eléctrica",
+        "Instalación hidrosanitaria",
+        "Sistemas de piscina y gas LPG",
+        "Entrega del sistema funcionando"
+      ],
+      "image": "/images/direccion-proyecto-comercial.webp",
+      "imageAlt": "Proyecto comercial terminado",
+      "art": "construccion"
+    },
+    {
+      "slug": "evaluacion-instalaciones",
+      "discipline": "ambas",
+      "name": "Evaluación de instalaciones existentes",
+      "h1": "Evaluación de instalaciones eléctricas y mecánicas existentes",
+      "summary": "Diagnóstico de instalaciones en operación para remodelar, ampliar o corregir.",
+      "intro": "Evaluamos instalaciones eléctricas y mecánicas que ya están en uso, para saber qué tiene, qué falla y qué necesita antes de remodelar o ampliar.",
+      "includes": [
+        "Visita y levantamiento de la instalación",
+        "Evaluación eléctrica y mecánica",
+        "Actualización de unifilares",
+        "Recomendaciones priorizadas"
+      ],
+      "image": "/images/tablero-electrico.webp",
+      "imageAlt": "Tablero eléctrico existente",
+      "art": "evaluacion"
+    }
+  ],
+  "footer": {
+    "closing": "Lo que no se ve en un edificio es lo que más trabaja.",
+    "cta": {
+      "label": "Cotizar proyecto",
+      "message": "Hola Go Ingeniería, quiero cotizar un proyecto."
+    },
+    "columns": [
+      {
+        "title": "Ingeniería eléctrica",
+        "discipline": "electrica"
+      },
+      {
+        "title": "Ingeniería mecánica",
+        "discipline": "mecanica"
+      },
+      {
+        "title": "Obra",
+        "discipline": "ambas"
+      }
+    ],
+    "copyright": "Go Ingeniería Costa Rica",
+    "credit": {
+      "label": "Sitio creado por Auromtec",
+      "url": "https://www.auromtec.com/"
+    }
+  }
+}
