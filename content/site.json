@@ -250,10 +250,9 @@
     {
       "id": "servicios",
       "type": "services",
-      "variant": "catalogo",
+      "variant": "lista",
       "title": "Nuestros servicios.",
-      "intro": "Diez servicios en tres especialidades. Elija una para ver solo esos, o recorra todos.",
-      "allLabel": "Todos",
+      "intro": "Diez servicios en tres especialidades. Toque uno para ver en qué consiste y su diagrama.",
       "categories": [
         {
           "id": "electrica",
